@@ -6,8 +6,11 @@ createApp({
             codigo: '',
             nombre: '',
             direccion: '',
+            municipio: '',
+            departamento: '',
             telefono: '',
-            email: ''
+            fechadenacimiento: '',
+            sexo: ''
         }
     },
     methods: {
@@ -16,8 +19,11 @@ createApp({
                 this.codigo,
                 this.nombre,
                 this.direccion,
+                this.municipio,
+                this.departamento,
                 this.telefono,
-                this.email
+                this.fechadenacimiento,
+                this.sexo
             );
         }
     }
